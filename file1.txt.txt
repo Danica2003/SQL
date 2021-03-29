@@ -1,0 +1,3 @@
+moj strava kod ide u ovaj file
+
+dodamo neki tekst iz grane "funk1"
