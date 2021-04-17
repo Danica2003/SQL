@@ -1,0 +1,8 @@
+SELECT * FROM Racun WHERE Stanje<0
+
+
+SELECT * FROM Stavka WHERE Iznos > "12000"
+
+SELECT Komitent.Naziv, Racun.* FROM Komitent JOIN Racun ON Racun.IdKom = Komitent.IdKom WHERE Status = "A"
+
+SELECT Filijala.Naziv AS "Naziv Filijale", Mesto.Naziv AS "Naziv Grada" FROM Filijala JOIN Mesto ON Filijala.idMes = Mesto.IdMes WHERE Mesto.IdMes=1;
